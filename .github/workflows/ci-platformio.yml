@@ -31,5 +31,5 @@ jobs:
       run: pio lib -g install 1
     - name: Run PlatformIO
       run: pio run
-    - name: Run PlatformIO test
-      run: pio test
+    - name: Run PlatformIO unit test
+      run: pio test -e native
