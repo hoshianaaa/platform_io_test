@@ -32,4 +32,6 @@ jobs:
     - name: Run PlatformIO
       run: pio run -e teensy41
     - name: Run PlatformIO unit test
-      run: pio test -e native
+      #run: pio test -e native
+      run: pio test -e nati
+
